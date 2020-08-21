@@ -1,0 +1,79 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+
+    background-image: url('images/clearsky.jpg');
+    height:100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+background-size:cover ;
+}
+.weather-main
+{
+    
+    width:50vh;
+    margin:100px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.weather-main > *
+{
+    margin-bottom: 20px;
+}
+.ib
+{
+width:100%;
+background-color: #afc2ca;
+border: none;
+outline: none;
+color:#3a5c67;
+font-size: 1.2rem;
+height:50px;
+border-radius: 5px;
+padding: 0 10px;
+text-align: center;
+;
+
+}
+.ib:focus
+{
+    background-color: #8894a7;
+
+}
+.weather-details
+{
+    display:none;
+    color:rgb(93 74 199);
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: #9cd2d3;
+
+}
+.city-details
+{
+    font-weight: bold;
+
+}
+.city-weather
+{
+    padding: 20px;
+}
+.temp
+{
+    font-size:50pt;
+    font-weight:700;
+    margin:20px 0;
+    text-shadow:2px 4px darkslategray;
+}
+.minmax, .weather
+{
+    font-size: 12pt;
+    font-weight: 600;
+}
